@@ -64,7 +64,6 @@ module.exports = function (app) {
         topFriend.name = friendsData[topFriendIndex].name;
         topFriend.photo = friendsData[topFriendIndex].photo;
 
-        console.log(topFriend)
         res.json(topFriend);
     });
 };
