@@ -7,19 +7,19 @@
 
 var friendsArray = [
   {
-    name: "Sara",
-    photo: "google.com",
+    name: "Yoda",
+    photo: "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Yoda_Attack_of_the_Clones.png/170px-Yoda_Attack_of_the_Clones.png",
     scores: [
-      1,
-      4,
-      3,
-      5,
-      2,
-      5,
-      2,
-      1,
-      4,
-      3
+      "1",
+      "4",
+      "3",
+      "5",
+      "2",
+      "5",
+      "2",
+      "1",
+      "4",
+      "3"
     ]
   }
 ];
