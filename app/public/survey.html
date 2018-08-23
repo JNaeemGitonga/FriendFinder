@@ -177,7 +177,7 @@
                     <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
                 </div>
                 <div class="modal-footer">
-                   <a href='/home'><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></a> 
+                   <button type="button" class="btn btn-default close" data-dismiss="modal">Close</button>
                 </div>
             </div>
 
@@ -267,6 +267,11 @@
             } else {
                 alert("Please fill out all fields before submitting!");
             }
+            
+            $('.close').on('click', function() {
+                window.location = './home';
+            })
+
         });
     </script>
 
